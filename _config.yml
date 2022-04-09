@@ -8,12 +8,12 @@ subtitle: ''
 description: 逝者如斯夫，不舍昼夜
 keywords:
 author: icystone
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: http://icystone.testflight.ltd
 root: /
 permalink: :year/:month/:day/:category/:title/
 permalink_defaults:
@@ -107,15 +107,7 @@ search:
 
 theme: next
 
-plugins:
-  gitalk:
-    clientID: GitHub Application Client ID
-    clientSecret: GitHub Application Client Secret
-    repo: GitHub repo
-    owner: GitHub repo owner
-    admin: 
-      - GitHub repo owner and collaborators, only these guys can initialize github issues
-    distractionFreeMode: false
+# plugins:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
